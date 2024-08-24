@@ -5,8 +5,8 @@
 GROW                                                           H. Sharma
 Internet-Draft                                                 S. Clarke
 Updates: 7854 (if approved)                                     Vodafone
-Intended status: Informational                              23 July 2024
-Expires: 24 January 2025
+Intended status: Informational                            24 August 2024
+Expires: 25 February 2025
 
 
        BMPS: Transport Layer Security for BGP Monitoring Protocol
@@ -36,7 +36,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 January 2025.
+   This Internet-Draft will expire on 25 February 2025.
 
 Copyright Notice
 
@@ -89,7 +89,7 @@ Table of Contents
    tunnel mode with pre-shared keys for enhanced security in such
    scenarios.
 
-   Additionally, a recent draft proposal, [draft-hmntsharma-bmp-tcp-ao],
+   Additionally, a recent draft proposal, [draft-ietf-grow-bmp-tcp-ao],
    titled "TCP-AO Protection for BGP Monitoring Protocol (BMP)" suggests
    an alternative approach using the TCP Authentication Option
    [RFC5925].  This method authenticates the endpoints of the TCP
@@ -245,19 +245,19 @@ Table of Contents
 
 6.2.  Informative References
 
-   [draft-hmntsharma-bmp-tcp-ao]
+   [draft-ietf-grow-bmp-tcp-ao]
               Sharma, H. and J. Haas, "TCP-AO Protection for BGP
               Monitoring Protocol (BMP)", Work in Progress, Internet-
-              Draft, draft-hmntsharma-bmp-tcp-ao-03, 11 April 2024,
-              <https://datatracker.ietf.org/doc/html/draft-hmntsharma-
-              bmp-tcp-ao-03>.
+              Draft, draft-ietf-grow-bmp-tcp-ao-00, 22 August 2024,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-grow-
+              bmp-tcp-ao-00>.
 
-   [I-D.hmntsharma-bmp-tcp-ao]
+   [I-D.ietf-grow-bmp-tcp-ao]
               Sharma, H. and J. Haas, "TCP-AO Protection for BGP
               Monitoring Protocol (BMP)", Work in Progress, Internet-
-              Draft, draft-hmntsharma-bmp-tcp-ao-03, 11 April 2024,
-              <https://datatracker.ietf.org/doc/html/draft-hmntsharma-
-              bmp-tcp-ao-03>.
+              Draft, draft-ietf-grow-bmp-tcp-ao-00, 22 August 2024,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-grow-
+              bmp-tcp-ao-00>.
 
    [RFC2818]  Rescorla, E., "HTTP Over TLS", RFC 2818,
               DOI 10.17487/RFC2818, May 2000,
