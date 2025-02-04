@@ -38,7 +38,6 @@ author:
 
 normative:
  RFC2119:
- RFC5246:
  RFC7525:
  RFC7854:
  RFC8174:
@@ -74,7 +73,7 @@ The  {{Section 11 of RFC7854}} , "Security Considerations" acknowledges that whi
 
 Additionally, a recent draft proposal, {{?draft-ietf-grow-bmp-tcp-ao=I-D.ietf-grow-bmp-tcp-ao}}, titled "TCP-AO Protection for BGP Monitoring Protocol (BMP)" suggests an alternative approach using the TCP Authentication Option {{RFC5925}}. This method authenticates the endpoints of the TCP session, thereby safeguarding its integrity. TCP-AO is beneficial in situations where full IPSec security may not be feasible, although unlike IPSec, it does not encrypt the session traffic.
 
-Alternatively, Transport Layer Security (TLS), offers endpoint authentication, data encryption, and data integrity defined in The Transport Layer Security (TLS) Protocol Version 1.2 {{RFC5246}} and The Transport Layer Security (TLS) Protocol Version 1.3 {{RFC8446}}.
+Alternatively, Transport Layer Security (TLS), offers endpoint authentication, data encryption, and data integrity defined in the Transport Layer Security (TLS) Protocol Version 1.3 {{RFC8446}}.
 
 This document describes how to utilize TLS to secure BMP sessions between a monitoring station (acting as the server) and a Network Element (acting as the client). Unlike BGP, where either side can act as the server, BMP's role distinction simplifies the implementation of TLS in a client-server model. Henceforth, the term BMP over TLS will be referred to as BMPS.
 
@@ -115,9 +114,9 @@ The operational flow of BMP over TLS is similar to standard TLS operations:
 6. The TLS connection is established.
 7. The NE begins transmitting BMP data to the station over the encrypted TLS channel.
 
-TLS version 1.3, defined in {{RFC8446}}, streamlines the handshake process and supports more robust cipher suites compared to TLS version 1.2 {{RFC5246}}, enhancing both speed and security. However, widespread support for TLS 1.3 remains limited, with many systems still primarily utilizing TLS 1.2.
+TLS version 1.3, defined in {{RFC8446}}, streamlines the handshake process and supports more robust cipher suites compared to the previous versions, enhancing both speed and security. 
 
-The BMPS is REQUIRED to support TLS 1.2 or higher to ensure secure communication.
+The BMPS is REQUIRED to support TLS 1.3 which has become a dominant standard.
 
 
 ## Operational Recommendations for BMPS
