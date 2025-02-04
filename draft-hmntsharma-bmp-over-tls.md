@@ -114,10 +114,9 @@ The operational flow of BMP over TLS is similar to standard TLS operations:
 6. The TLS connection is established.
 7. The NE begins transmitting BMP data to the station over the encrypted TLS channel.
 
-TLS version 1.3, defined in {{RFC8446}}, streamlines the handshake process and supports more robust cipher suites compared to the previous versions, enhancing both speed and security. 
+TLS version 1.3, defined in {{RFC8446}}, streamlines the handshake process and supports more robust cipher suites compared to the previous versions, enhancing both speed and security.
 
 The BMPS is REQUIRED to support TLS 1.3 which has become a dominant standard.
-
 
 ## Operational Recommendations for BMPS
 
