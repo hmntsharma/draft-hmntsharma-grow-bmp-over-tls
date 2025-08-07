@@ -54,28 +54,6 @@ informative:
  I-D.draft-liu-grow-bmp-over-quic:
  RFC9000:
  BGPOST:
-         <reference anchor="BGPOST">
-          <front>
-            <title>The Multiple Benefits of a Secure Transport for BGP</title>
-            <author fullname="Thomas Wirtgen" initials="T." surname="Wirtgen">
-              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, BE</organization>
-            </author>
-            <author fullname="Nicolas Rybowski" initials="N." surname="Rybowski">
-              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
-            </author>
-            <author fullname="Cristel Pelsser" initials="C." surname="Pelsser">
-              <organization>ICTEAM, UCLouvain, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
-            </author>
-            <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
-              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
-            </author>
-            <date month="November" year="2024"/>
-          </front>
-          <seriesInfo name="Proceedings of the ACM on Networking" value="vol. 2, no. CoNEXT4, pp. 1-23"/>
-          <seriesInfo name="DOI" value="10.1145/3696406"/>
-          <refcontent>Association for Computing Machinery (ACM)</refcontent>
-        </reference>
-
 
 --- abstract
 
@@ -103,7 +81,7 @@ The BGP Monitoring Protocol (BMP) {{RFC7854}} relies on the TCP protocol to esta
 
 QUIC is suitable for BMP transport {{?draft-liu-grow-bmp-over-quic=I-D.draft-liu-grow-bmp-over-quic}} and has the potential to replace a BMP connection for each "logical router" by a single QUIC connection with streams for the messages from each "logical router". However it's deployment is dependent on the adoption of QUIC in router management stacks which have historically lagged behind server developments due to their cautious approach and slower development rate.
 
-This document describes how BMP can operate over TCP/TLS.  Experience in implementing BGP over TLS/TCP {{BGPOST}} showed that this is less costly than porting a BGP implementation over QUIC and the similarities suggest that the same is true for BMP.
+This document describes how BMP can operate over TCP/TLS.  Experience in implementing BGP over TLS/TCP <xref target="BGPOST"/> showed that this is less costly than porting a BGP implementation over QUIC and the similarities suggest that the same is true for BMP.
 
 This document describes how to utilize TLS to secure BMP sessions between a monitoring station (acting as the server) and a Network Element (acting as the client). Unlike BGP, where either side can act as the server, BMP's role distinction simplifies the implementation of TLS in a client-server model. Henceforth, the term BMP over TLS will be referred to as BMPS.
 
