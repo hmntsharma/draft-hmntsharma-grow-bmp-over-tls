@@ -77,7 +77,7 @@ Additionally, a recent draft proposal, {{I-D.ietf-grow-bmp-tcp-ao}}, titled "TCP
 
 Alternatively, Transport Layer Security (TLS), offers endpoint authentication, data encryption, and data integrity defined in the Transport Layer Security (TLS) Protocol Version 1.3 {{RFC8446}}.
 
-The BGP Monitoring Protocol (BMP) {{RFC7854}} relies on the TCP protocol to establish BGP sessions between routers.  There are ongoing discussions within the IETF {{.draft-liu-grow-bmp-over-quic}} to replace TCP with the QUIC protocol {{RFC9000}}. QUIC brings many features compared to TCP including security, the support of multiple streams or datagrams.
+The BGP Monitoring Protocol (BMP) {{RFC7854}} relies on the TCP protocol to establish BGP sessions between routers.  There are ongoing discussions within the IETF {{I-D.draft-liu-grow-bmp-over-quic}} to replace TCP with the QUIC protocol {{RFC9000}}. QUIC brings many features compared to TCP including security, the support of multiple streams or datagrams.
 
 QUIC is suitable for BMP transport {{draft-liu-grow-bmp-over-quic}} and has the potential to replace a BMP connection for each "logical router" by a single QUIC connection with streams for the messages from each "logical router". However it's deployment is dependent on the adoption of QUIC in router management stacks which have historically lagged behind server developments due to their cautious approach and slower development rate.
 
