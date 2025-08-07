@@ -52,8 +52,28 @@ informative:
  RFC8253:
  I-D.ietf-grow-bmp-tcp-ao:
  I-D.draft-liu-grow-bmp-over-quic:
- BGPOST:
  RFC9000:
+         <reference anchor="BGPOST">
+          <front>
+            <title>The Multiple Benefits of a Secure Transport for BGP</title>
+            <author fullname="Thomas Wirtgen" initials="T." surname="Wirtgen">
+              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, BE</organization>
+            </author>
+            <author fullname="Nicolas Rybowski" initials="N." surname="Rybowski">
+              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
+            </author>
+            <author fullname="Cristel Pelsser" initials="C." surname="Pelsser">
+              <organization>ICTEAM, UCLouvain, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
+            </author>
+            <author fullname="Olivier Bonaventure" initials="O." surname="Bonaventure">
+              <organization>ICTEAM, UCLouvain &amp;amp; WEL Research Institute, Louvain-la-Neuve, Walloon Brabant, Belgium</organization>
+            </author>
+            <date month="November" year="2024"/>
+          </front>
+          <seriesInfo name="Proceedings of the ACM on Networking" value="vol. 2, no. CoNEXT4, pp. 1-23"/>
+          <seriesInfo name="DOI" value="10.1145/3696406"/>
+          <refcontent>Association for Computing Machinery (ACM)</refcontent>
+        </reference>
 
 
 --- abstract
