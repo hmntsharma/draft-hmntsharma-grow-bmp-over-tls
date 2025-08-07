@@ -51,6 +51,8 @@ informative:
  RFC5925:
  RFC8253:
  I-D.ietf-grow-bmp-tcp-ao:
+ I-D.draft-liu-grow-bmp-over-quic:
+ BGPOST:
 
 
 --- abstract
@@ -74,6 +76,12 @@ The  {{Section 11 of RFC7854}} , "Security Considerations" acknowledges that whi
 Additionally, a recent draft proposal, {{?draft-ietf-grow-bmp-tcp-ao=I-D.ietf-grow-bmp-tcp-ao}}, titled "TCP-AO Protection for BGP Monitoring Protocol (BMP)" suggests an alternative approach using the TCP Authentication Option {{RFC5925}}. This method authenticates the endpoints of the TCP session, thereby safeguarding its integrity. TCP-AO is beneficial in situations where full IPSec security may not be feasible, although unlike IPSec, it does not encrypt the session traffic.
 
 Alternatively, Transport Layer Security (TLS), offers endpoint authentication, data encryption, and data integrity defined in the Transport Layer Security (TLS) Protocol Version 1.3 {{RFC8446}}.
+
+The BGP Monitoring Protocol (BMP) {{RFC7854}} relies on the TCP protocol to establish BGP sessions between routers.  There are ongoing discussions within the IETF {{?draft-liu-grow-bmp-over-quic=I-D.draft-liu-grow-bmp-over-quic}} to replace TCP with the QUIC protocol {{RFC9000}}. QUIC brings many features compared to TCP including security, the support of multiple streams or datagrams.
+
+QUIC is suitable for BMP transport {{?draft-liu-grow-bmp-over-quic=I-D.draft-liu-grow-bmp-over-quic}} and has the potential to replace a BMP connection for each "logical router" by a single QUIC connection with streams for the messages from each "logical router". However it's deployment is dependent on the adoption of QUIC in router management stacks which have historically lagged behind server developments due to their cautious approach and slower development rate.
+
+This document describes how BMP can operate over TCP/TLS.  Experience in implementing BGP over TLS/TCP {{BGPOST}} showed that this is less costly than porting a BGP implementation over QUIC and the similarities suggest that the same is true for BMP.
 
 This document describes how to utilize TLS to secure BMP sessions between a monitoring station (acting as the server) and a Network Element (acting as the client). Unlike BGP, where either side can act as the server, BMP's role distinction simplifies the implementation of TLS in a client-server model. Henceforth, the term BMP over TLS will be referred to as BMPS.
 
