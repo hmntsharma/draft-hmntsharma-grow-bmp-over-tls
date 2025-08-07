@@ -53,6 +53,7 @@ informative:
  I-D.ietf-grow-bmp-tcp-ao:
  I-D.draft-liu-grow-bmp-over-quic:
  RFC9000:
+ BGPOST:
          <reference anchor="BGPOST">
           <front>
             <title>The Multiple Benefits of a Secure Transport for BGP</title>
