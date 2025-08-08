@@ -3,7 +3,7 @@ title: "BMPS: Transport Layer Security for BGP Monitoring Protocol"
 abbrev: "BMP over TLS (BMPS)"
 category: info
 
-docname: draft-hmntsharma-bmp-over-tls-latest
+docname: draft-hmntsharma-grow-bmp-over-tls-latest
 updates: 7854
 submissiontype: independent  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
