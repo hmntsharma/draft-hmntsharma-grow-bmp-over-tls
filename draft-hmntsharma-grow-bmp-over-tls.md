@@ -23,7 +23,7 @@ venue:
 #  mail: WG@example.com
 #  arch: https://example.com/WG
 #  github: "hmntsharma/draft-hmntsharma-bmp-over-tls"
-#  latest: "https://hmntsharma.github.io/draft-hmntsharma-bmp-over-tls/draft-hmntsharma-bmp-over-tls.html"
+#  latest: "https://hmntsharma.github.io/draft-hmntsharma-grow-bmp-over-tls/draft-hmntsharma-grow-bmp-over-tls.html"
 
 author:
  -
