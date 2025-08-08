@@ -2,16 +2,16 @@
 
 This is the working area for the individual Internet-Draft, "BMPS: Transport Layer Security for BGP Monitoring Protocol".
 
-* [Editor's Copy](https://hmntsharma.github.io/draft-hmntsharma-bmp-over-tls/#go.draft-hmntsharma-bmp-over-tls.html)
+* [Editor's Copy](https://hmntsharma.github.io/draft-hmntsharma-grow-bmp-over-tls/#go.draft-hmntsharma-grow-bmp-over-tls.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-hmntsharma-bmp-over-tls)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-hmntsharma-bmp-over-tls)
-* [Compare Editor's Copy to Individual Draft](https://hmntsharma.github.io/draft-hmntsharma-bmp-over-tls/#go.draft-hmntsharma-bmp-over-tls.diff)
+* [Compare Editor's Copy to Individual Draft](https://hmntsharma.github.io/draft-hmntsharma-grow-bmp-over-tls/#go.draft-hmntsharma-grow-bmp-over-tls.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/hmntsharma/draft-hmntsharma-bmp-over-tls/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/hmntsharma/draft-hmntsharma-grow-bmp-over-tls/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
