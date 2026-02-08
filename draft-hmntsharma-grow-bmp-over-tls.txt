@@ -212,8 +212,8 @@ Table of Contents
 
 4.  Implementation Status
 
-   This section is to be removed fron the final draft before publishing
-   as an RFC.
+   Note: This section is to be removed from the final draft before
+   publishing as an RFC.
 
    This section records the progress of a working implementation of BMP
    over TLS by creating a fork of the original implementation of [GoBMP]
@@ -225,10 +225,9 @@ Table of Contents
 
    There is a wiki section [Validating BMP‐over‐TLS with GoBMP and
    GoBGP] (https://github.com/asadarafat/gobmp/wiki/Validating-
-   BMP%E2%80%90over%E2%80%90TLS-with-GoBMP-and-GoBGP), in the same
-   github repository, with a detailed walktrhough and a recorded demo,
-   which is intented to be used as a proof of concept and validation
-   testing.
+   BMP%E2%80%90over%E2%80%90TLS-with-GoBMP-and-GoBGP) in the same github
+   repository, with a detailed walktrhough and a recorded demo, which is
+   intented to be used as a proof of concept.
 
 5.  Security Considerations
 
