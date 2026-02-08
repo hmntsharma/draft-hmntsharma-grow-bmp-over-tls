@@ -5,8 +5,9 @@
 GROW                                                           H. Sharma
 Internet-Draft                                                 S. Clarke
 Updates: 7854 (if approved)                                     Vodafone
-Intended status: Informational                           8 February 2026
-Expires: 12 August 2026
+Intended status: Informational                                 A. Arafat
+Expires: 12 August 2026                                            Nokia
+                                                         8 February 2026
 
 
        BMPS: Transport Layer Security for BGP Monitoring Protocol
@@ -348,3 +349,8 @@ Authors' Addresses
    Steven Clarke
    Vodafone
    Email: steven.clarke@vodafone.com
+
+
+   Asad Arafat
+   Nokia
+   Email: asad.arafat@nokia.com
