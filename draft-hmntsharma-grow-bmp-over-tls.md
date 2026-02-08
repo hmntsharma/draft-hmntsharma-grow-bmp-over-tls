@@ -36,6 +36,11 @@ author:
     organization: Vodafone
     email: steven.clarke@vodafone.com
 
+ -
+    fullname: Asad Arafat
+    organization: Nokia
+    email: asad.arafat@nokia.com
+
 normative:
  RFC2119:
  RFC7525:
