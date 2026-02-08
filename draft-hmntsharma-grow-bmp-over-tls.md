@@ -130,6 +130,16 @@ The BMPS is REQUIRED to support TLS 1.3 which has become a dominant standard.
 
 The BMP over TLS (BMPS) is RECOMMENDED as an alternative mechanism to safeguard BMP sessions in scenarios where alternative protections like IPSec may not be feasible or deployed.
 
+# Implementation Status
+
+This section is to be removed fron the final draft before publishing as an RFC.
+
+This section records the progress of a working implementation of BMP over TLS by creating a fork of the original implementation of [GoBMP] {{ https://github.com/sbezverk/gobmp }} here at [Forked-GoBMP ]{{ https://github.com/asadarafat/gobmp }}. 
+
+The objective of this section is to assist IETF in the decision process, to progress this draft to an RFC. 
+
+There is a wiki section [Validating BMP‐over‐TLS with GoBMP and GoBGP] {{ https://github.com/asadarafat/gobmp/wiki/Validating-BMP%E2%80%90over%E2%80%90TLS-with-GoBMP-and-GoBGP }} in the same github repository, with a detailed walktrhough and a recorded demo, which is intented to be used as a proof of concept and validation testing.
+
 
 # Security Considerations
 
